@@ -1,0 +1,7 @@
+<li class="task" id="note_<%= note.id %>">
+  <span>
+    <%= note.description %>
+  </span>
+  <%= link_to image_tag('cross.png'), project_note_path(@note.project, note), :confirm => 'Destroy Note ?', :method => :delete, :remote => true %>
+  <%= facebox_link_to image_tag('application_edit.png'), :url => edit_project_note_path(@note.project, note), :remote => true, :method => :get %>
+</li>

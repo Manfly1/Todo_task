@@ -1,0 +1,136 @@
+/* http://meyerweb.com/eric/tools/css/reset/ */
+/* v1.0 | 20080212 */
+html, body, div, span, applet, object, iframe, h1, h2, h3, h4, h5, h6, p, blockquote, pre, a, abbr, acronym, address, big, cite, code, del, dfn, em, font, img, ins, kbd, q, s, samp, small, strike, strong, sub, sup, tt, var, b, u, i, center, dl, dt, dd, ol, ul, li, fieldset, form, label, legend, table, caption, tbody, tfoot, thead, tr, th, td {
+  margin: 0;
+  padding: 0;
+  border: 0;
+  outline: 0;
+  font-size: 100%;
+  vertical-align: baseline;
+  background: transparent; }
+
+body {
+  line-height: 1; }
+
+ol, ul {
+  list-style: none; }
+
+blockquote, q {
+  quotes: none; }
+
+blockquote:before, blockquote:after {
+  content: "";
+  content: none; }
+
+q:before, q:after {
+  content: "";
+  content: none; }
+
+/* remember to define focus styles! */
+:focus {
+  outline: 0; }
+
+/* remember to highlight inserts somehow! */
+ins {
+  text-decoration: none; }
+
+del {
+  text-decoration: line-through; }
+
+/* tables still need 'cellspacing="0"' in the markup */
+table {
+  border-collapse: collapse;
+  border-spacing: 0; }
+
+body {
+  font: 75% "Helvetica Neue", Helvetica, Arial sans-serif;
+  padding: 20px 10px;
+  width: 800px;
+  margin: 0 auto; }
+
+h1 {
+  font-size: 3em;
+  margin-bottom: 10px; }
+
+h2 {
+  font-size: 2em; }
+
+h2 .counter {
+  display: inline;
+  font-size: 50%;
+  color: #666666; }
+
+h3 {
+  font-size: 1.6em; }
+
+h4 {
+  font-size: 1.4em; }
+
+a:link, a:visited {
+  color: #0000ee; }
+
+p {
+  margin-bottom: 10px; }
+
+p.description {
+  margin-top: 5px; }
+  p.description a {
+    float: right; }
+
+textarea {
+  width: 100%;
+  height: 10em;
+  margin-bottom: 5px; }
+
+#header {
+  margin: 5px 0 15px; }
+
+#flash {
+  position: relative;
+  z-index: 2;
+  margin: 5px 0; }
+
+#flash_notice {
+  background-color: #a9f16c;
+  border-top: 1px solid #00cf13;
+  border-bottom: 1px solid #00cf13;
+  font-weight: bold;
+  text-align: center;
+  padding: 5px 0; }
+
+#flash_error, .validation-error {
+  background-color: #ff9595;
+  border-top: 1px solid #ff1515;
+  border-bottom: 1px solid #ff1515;
+  font-weight: bold;
+  text-align: center;
+  padding: 5px 0px; }
+
+ul {
+  list-style-type: none;
+  margin-left: 15px;
+  margin-bottom: 20px; }
+
+li {
+  margin: 10px 0px;
+  padding: 5px; }
+
+li.task img, li.completed img {
+  vertical-align: text-top; }
+li.task a, li.completed a {
+  float: right;
+  margin-left: 5px;
+  visibility: hidden; }
+li.task:hover, li.completed:hover {
+  background-color: #dddddd; }
+  li.task:hover a, li.completed:hover a {
+    visibility: visible; }
+
+li.completed {
+  text-decoration: line-through; }
+
+.button_to {
+  display: inline-block; }
+
+.handle:hover {
+  cursor: move; }
